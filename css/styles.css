@@ -24,6 +24,8 @@ a {
   color: currentColor;
 }
 button {
+}
+button {
   cursor: pointer;
 }
 img {
