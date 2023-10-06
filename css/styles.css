@@ -116,6 +116,42 @@ address {
 
 /*=================================================================*/
 
+.footer {
+  background-color: #2e2f42;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  padding: 100px 0;
+}
+.footer-logo {
+  margin-bottom: 16px;
+  display:inline-block;
+}
+.footer-pathlogo {
+  color: #f4f4fd;
+  max-width: 264px;
+}
+.footer-soc-container{
+  /*display: flex;
+  align-items: center;
+  margin-right: auto;*/
+  display: flex;
+  align-items: center;
+}
+
+.footer-soc-list{
+  display: flex;
+  gap: 16px;
+  margin-top: 16px;
+}
+.soc-link{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+/*======================================================================*/
+
 .hero {
 }
 
@@ -168,7 +204,6 @@ address {
   padding-top: 120px;
   padding-bottom: 120px;
 }
-
 .accomplishments-list {
   display: flex;
   gap: 24px;
@@ -176,11 +211,40 @@ address {
 .accomplishments-item {
   width: 264px;
 }
+.accomplishments-icon {
+  background-color: #f4f4fd;
+  border-radius: 4px;
+  border: 1px;
+  color: #8e8f99; solid
+}
 .accomplishments-subtitle {
+  font-family: "Roboto", sans-serif;
+  color: #2e2f42;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
   margin-bottom: 8px;
 }
 .accomplishments-item-text {
+  font-family: "Roboto", sans-serif;
+  color: #434455;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
 }
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
+
 /*===========================*/
 .our-team {
   background-color: #f4f4fd;
@@ -222,6 +286,14 @@ address {
   line-height: 1.5;
   letter-spacing: 0.02em;
   text-align: center;
+}
+.our-team-soc-list {
+  display: flex;
+  gap: 24px;
+  justify-content: center;
+}
+.soc-item {
+  background: ;
 }
 /*======================================================*/
 .our-portfolio {
@@ -267,47 +339,3 @@ address {
 }
 /*========================================*/
 
-.footer {
-  background-color: #2e2f42;
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 1.5;
-  letter-spacing: 0.02em;
-  padding: 100px 0;
-}
-.footer-logo {
-  margin-bottom: 16px;
-  display: inline-block;
-}
-.footer-pathlogo {
-  color: #f4f4fd;
-  max-width: 264px;
-}
-/*=======================================*/
-
-.accomplishments-subtitle {
-  font-family: "Roboto", sans-serif;
-  color: #2e2f42;
-  font-weight: 500;
-  font-size: 20px;
-  line-height: 1.2;
-  letter-spacing: 0.02em;
-}
-.accomplishments-item-text {
-  font-family: "Roboto", sans-serif;
-  color: #434455;
-  line-height: 1.5;
-  letter-spacing: 0.02em;
-}
-.visually-hidden {
-  position: absolute;
-  width: 1px;
-  height: 1px;
-  margin: -1px;
-  border: 0;
-  padding: 0;
-  white-space: nowrap;
-  clip-path: inset(100%);
-  clip: rect(0 0 0 0);
-  overflow: hidden;
-}
