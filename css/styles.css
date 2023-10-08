@@ -101,6 +101,7 @@ address {
   height: 4px;
   background-color: #404bbf;
   border-radius: 2px;
+  width: auto;
 }
 /*tranition
 
@@ -174,7 +175,7 @@ cubic-bezier(0.4, 0, 0.2, 1)
 
 .hero-container {
   background-color: #2e2f42;
-  background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)),url(../images/herobg.jpg);
+  background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/herobg.jpg);
   max-width: 1440px;
   background-repeat: no-repeat;
   background-position: center;
@@ -193,7 +194,6 @@ cubic-bezier(0.4, 0, 0.2, 1)
   max-width: 496px;
   margin-bottom: 48px;
   margin: 0 auto;
-  padding-bottom: 48px;
 }
 .hero-btn {
   background-color: #4d5ae5;
@@ -211,7 +211,7 @@ cubic-bezier(0.4, 0, 0.2, 1)
   align-items: flex-start;
   gap: 10px;
   border-radius: 4px;
-  margin: 0 auto;
+  margin: 48px auto auto auto;
 }
 .hero-btn:hover,
 .hero-btn:focus {
