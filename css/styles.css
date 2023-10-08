@@ -88,9 +88,13 @@ address {
 }
 
 .header-menu-link:hover {
-  color: #404bbf;
+  color: #404bbf; 
 }
-.cuurent
+
+.header-menu-link:hover::after{
+  content:"";
+}
+
 .header-menu-link:focus {
   color: #404bbf;
 }
