@@ -84,6 +84,7 @@ address {
   padding-bottom: 24px;
   display: block;
   position: relative;
+  color: #404bbf; 
 }
 
 .header-menu-link:hover {
