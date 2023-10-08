@@ -51,6 +51,7 @@ address {
   display: flex;
   align-items: center;
   margin-right: auto;
+  position: relative;
 }
 
 .header-logo {
