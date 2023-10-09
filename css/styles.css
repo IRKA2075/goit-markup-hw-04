@@ -176,13 +176,15 @@ address {
   gap: 16px;
   margin-top: 16px;
 }
-.soc-wrap-item{
+.soc-wrap-item{}
 
-}
 .soc-link{
   display: flex;
   align-items: center;
   justify-content: center;
+  height: 100%;
+  background-color:  #4d5ae5;
+  border-radius: 50%;
 }
 .footer-soc-icon{
   
