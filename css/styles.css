@@ -231,9 +231,15 @@ address {
   background-color: #f4f4fd;
   border-radius: 4px;
   border: 1px;
-  color: #8e8f99; solid
+  color: #8e8f99; solid;
+  display: flex; 
+  align-items: center; 
+  justify-content: center; 
+  height: 112px;
+  margin-bottom: 8px; 
 }
 .accomplishments-icon {}
+
 .accomplishments-subtitle {
   font-family: "Roboto", sans-serif;
   color: #2e2f42;
