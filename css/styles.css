@@ -197,7 +197,7 @@ address {
 }
 
 .footer-soc-icon{
-  color: #f4f4fd;
+  fill: #f4f4fd;
 }
 /*======================================================================*/
 
@@ -349,9 +349,18 @@ address {
   gap: 24px;
   justify-content: center;
 }
-.soc-item {
+.our-team-soc-item {
   width: 40px;
   height: 40px;
+}
+.our-team-soc-link:hover{
+ background-color: #404bbf;
+}
+.our-team-soc-link:focus{
+ background-color: #404bbf;
+}
+.our-team-soc-icon{
+  fill: #f4f4fd;
 }
 /*======================================================*/
 .our-portfolio {
