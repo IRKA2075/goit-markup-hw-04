@@ -227,12 +227,13 @@ address {
 .accomplishments-item {
   width: 264px;
 }
-.accomplishments-icon {
+.accomplishments-icon-wrap{
   background-color: #f4f4fd;
   border-radius: 4px;
   border: 1px;
   color: #8e8f99; solid
 }
+.accomplishments-icon {}
 .accomplishments-subtitle {
   font-family: "Roboto", sans-serif;
   color: #2e2f42;
