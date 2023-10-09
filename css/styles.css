@@ -147,11 +147,20 @@ address {
   color: #f4f4fd;
   max-width: 264px;
 }
+.soc-paragraf{
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #fff;
+  margin-bottom: 16px;
+}
 .footer-container{
   display: flex;
   align-items: baseline;
 }
 .footer-logo-wrap{
+  margin-right: 120px;
 
 }
 .footer-soc-container{
