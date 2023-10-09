@@ -147,6 +147,13 @@ address {
   color: #f4f4fd;
   max-width: 264px;
 }
+.footer-container{
+  display: flex;
+  align-items: baseline;
+}
+.footer-logo-wrap{
+
+}
 .footer-soc-container{
   /*display: flex;
   align-items: center;
