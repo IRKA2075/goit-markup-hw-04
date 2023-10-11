@@ -141,14 +141,6 @@ address {
   color: #f4f4fd;
   max-width: 264px;
 }
-.soc-paragraf{
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 1.5;
-  letter-spacing: 0.02em;
-  color: #fff;
-  margin-bottom: 16px;
-}
 .footer-container{
   display: flex;
   align-items: baseline;
@@ -158,20 +150,26 @@ address {
 
 }
 .footer-soc-container{
-  display: flex;
-  align-items: center;
 }
 .footer-soc-list{
   display: flex;
   gap: 16px;
   margin-top: 16px;
 }
-.soc-wrap-item{
+.footer-soc-paragraf{
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #fff;
+  margin-bottom: 16px;
+}
+.footer-soc-wrap-item{
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
   width: 40px;
   height: 40px;
 }
-.soc-link{
+.footer-soc-link{
   display: flex;
   align-items: center;
   justify-content: center;
@@ -181,8 +179,8 @@ address {
   border-radius: 50%;
   
 }
-.soc-link:hover,
-.soc-link:focus{
+.footer-soc-link:hover,
+.footer-soc-link:focus{
   background-color: #31d0aa; 
 }
 .footer-soc-icon{
