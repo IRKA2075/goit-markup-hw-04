@@ -81,7 +81,6 @@ address {
   padding-bottom: 24px;
   display: block;
   position: relative;
-  color: #404bbf;
   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .current {
@@ -102,7 +101,7 @@ address {
 .header-menu-link:focus {
   color: #404bbf;
 }
-.header-menu-link::after {
+/*.header-menu-link::after {
   content: "";
   position: absolute;
   left: 0;
@@ -111,7 +110,7 @@ address {
   background-color: #404bbf;
   border-radius: 2px;
   width: 48px;
-}
+}*/
 .header-contact {
   font-style: normal;
 }
@@ -142,7 +141,7 @@ address {
 .footer {
   background-color: #2e2f42;
   align-items: baseline;
-  padding: 100px 156px;
+  padding: 100px 0; /*156px*/
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
@@ -210,12 +209,11 @@ address {
   background-position: center;
   background-size: cover;
   margin: auto;
+  padding: 188px 0;
 }
 .hero-container {
   /*background-color: #2e2f42;*/
   background-color: 250ms cubic-bezier(0.4, 0, 0.2, 1);
-  padding-top: 188px;
-  padding-bottom: 188px;
 }
 .hero-title {
   font-size: 56px;
@@ -304,6 +302,7 @@ address {
 /*===========================*/
 .our-team {
   background-color: #f4f4fd;
+  padding: 120px 0;
 }
 .our-team-title {
   font-size: 36px;
@@ -342,6 +341,7 @@ address {
   line-height: 1.5;
   letter-spacing: 0.02em;
   text-align: center;
+  margin-bottom: 8px;
 }
 .our-team-soc-list {
   display: flex;
